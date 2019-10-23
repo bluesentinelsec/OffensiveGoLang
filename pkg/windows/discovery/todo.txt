@@ -1,0 +1,9 @@
+3. Drivers
+4. Installed Software
+5. Services
+6. Security Products
+7. Common persistence
+8. Auditing configuration
+9. Scheduled Tasks
+10. Recently Modified Files
+11. Recent USB Devices
