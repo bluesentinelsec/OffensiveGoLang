@@ -17,7 +17,7 @@ func TestGetCurrentUser(t *testing.T) {
 	// trim carriage return and new line characters
 	var currentUser string
 	if runtime.GOOS == "windows" {
-		currentUser = strings.TrimSuffix(string(cmdOutput), "\n\r")
+		currentUser = strings.TrimSuffix(string(cmdOutput), "\r\n")
 	} else {
 		currentUser = strings.TrimSuffix(string(cmdOutput), "\n")
 	}
