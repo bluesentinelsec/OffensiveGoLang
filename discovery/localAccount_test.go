@@ -32,3 +32,33 @@ func TestGetCurrentUser(t *testing.T) {
 		t.Errorf("GetCurrentUser(): got %q, expected %q", got, want)
 	}
 }
+
+func TestGetCurrentUserID(t *testing.T) {
+	userID, err := GetCurrentUserID()
+	if err != nil {
+		t.Errorf("Error running GetCurrentUserID: %q", err)
+	}
+	if userID == "" {
+		t.Errorf("Error running GetCurrentUserID: %q", err)
+	}
+}
+
+func TestGetCurrentGroupID(t *testing.T) {
+	groupID, err := GetCurrentGroupID()
+	if err != nil {
+		t.Errorf("Error running GetCurrentGroupID: %q", err)
+	}
+	if groupID == "" {
+		t.Errorf("Error running GetCurrentGroupID: %q", err)
+	}
+}
+
+func TestGetUserHomeDir(t *testing.T) {
+	homeDir, err := GetUserHomeDir()
+	if err != nil {
+		t.Errorf("Error running GetUserHomeDir: %q", err)
+	}
+	if homeDir == "" {
+		t.Errorf("Error running GetUserHomeDir: %q", err)
+	}
+}
