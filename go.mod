@@ -1,3 +1,3 @@
-module bluesentinelsec.com/offensivegolang
+module github.com/bluesentinelsec/OffensiveGoLang
 
-go 1.15
+go 1.16

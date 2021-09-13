@@ -2,6 +2,8 @@
 // https://attack.mitre.org/techniques/T1087/001/
 package discovery
 
+import "C"
+
 import "os/user"
 
 // GetCurrentUser returns the program's current user account.
