@@ -1,10 +1,10 @@
 # Binaries for programs and plugins
-*.exe
+.exe
 *.exe~
-*.dll
-*.so
-*.dylib
-*.h
+.dll
+.so
+.dylib
+.h
 
 # Main go file
 main.go
