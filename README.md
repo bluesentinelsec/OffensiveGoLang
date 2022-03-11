@@ -3,6 +3,12 @@
 Offensive GoLang is is a collection of Go packages containing commonly used cyber adversary emulation functions.
 Offensive GoLang accomplishes nothing by itself; rather, it is intended to support rapid red team tool development by providing common functions in a modular format.
 
+## New to Offensive Go?
+
+Check out my presentation at [SANS Pen Test HackFest Summit 2021](https://youtu.be/AGLunpPtOgM).
+
+Slides can be found [here](https://github.com/bluesentinelsec/OffensiveGoLang/blob/master/Offensive%20GoLang%202.0%20-%20SANS%20Pen%20Test%20HackFest%202021.pdf)
+
 ## Requirements
 
 * Go 1.12.7
