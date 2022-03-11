@@ -7,7 +7,7 @@ Offensive GoLang accomplishes nothing by itself; rather, it is intended to suppo
 
 Check out my presentation at [SANS Pen Test HackFest Summit 2021](https://youtu.be/AGLunpPtOgM).
 
-Slides can be found [here](https://github.com/bluesentinelsec/OffensiveGoLang/blob/master/Offensive%20GoLang%202.0%20-%20SANS%20Pen%20Test%20HackFest%202021.pdf)
+Slides can be found [here](https://github.com/bluesentinelsec/OffensiveGoLang/blob/master/Offensive%20GoLang%202.0%20-%20SANS%20Pen%20Test%20HackFest%202021.pdf).
 
 ## Requirements
 
